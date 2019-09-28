@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 public class Filter {
     static int N = 101;
     static int A[] = new int[N];//0-N-1
@@ -20,8 +18,8 @@ public class Filter {
 
     public static void main(String[] args) {
         fill();
-       // System.out.println(Arrays.toString(A));
-        for(int i=1;i<N;i++)
-            if(A[i]==1) System.out.print(i+" ");
+        // System.out.println(Arrays.toString(A));
+        for (int i = 1; i < N; i++)
+            if (A[i] == 1) System.out.print(i + " ");
     }
 }
