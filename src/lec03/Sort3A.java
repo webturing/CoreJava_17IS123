@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Sort3A {
     public static void main(String[] args) {
-        while (cin.hasNext()) {
+        while(cin.hasNext()) {
             int a = cin.nextInt();
             int b = cin.nextInt();
             int c = cin.nextInt();
@@ -24,6 +24,5 @@ public class Sort3A {
 
 
     }
-
-    static Scanner cin = new Scanner(System.in);
+    static Scanner cin=new Scanner(System.in);
 }
