@@ -1,14 +1,11 @@
-package lec01;
+package lec0708midcontest;
 
 import java.util.Scanner;
-
-public class AAddB2 {
+ 
+public class E {
     public static void main(String[] args) {
         Scanner cin = new Scanner(System.in);
-        int a = cin.nextInt();
-        int b = cin.nextInt();
-        System.out.println(a + b);
+        System.out.println(cin.next().compareTo(cin.next()));
         cin.close();
-
     }
 }
