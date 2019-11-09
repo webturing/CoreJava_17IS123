@@ -1,10 +1,12 @@
 package lec09.exDom;
-import visibility.*;
-public class E extends A{
-	void g(){
-		//privateField++;
-		protectedField++;
-		//packageField++;
-		publicField++;
-	}
+
+import lec09.visibility.A;
+
+public class E extends A {
+    void g() {
+        //privateField++;
+        protectedField++;
+        //packageField++;
+        publicField++;
+    }
 }
