@@ -13,5 +13,8 @@ public class CollectionsAPI {
         Collections.sort(v, Collections.reverseOrder());
         System.out.println(Collections.max(v));
         System.out.println(Collections.min(v));
+        System.out.println(v.contains("four"));//linear search O(n)
+        System.out.println(v.indexOf("five"));//linear search O(n)
+        System.out.println(Collections.binarySearch(v, "five"));//binarySearch O(n)
     }
 }
