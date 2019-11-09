@@ -1,3 +1,5 @@
+package lec10;
+
 import java.util.PriorityQueue;
 
 public class PriorityQueueApp {
