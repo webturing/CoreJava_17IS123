@@ -1,3 +1,5 @@
+package week13a;
+
 import javax.swing.*;
 public class SWTDemo extends JFrame {
     SWTDemo(){
