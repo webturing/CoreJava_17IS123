@@ -1,3 +1,5 @@
+package lec11collections;
+
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.Scanner;
