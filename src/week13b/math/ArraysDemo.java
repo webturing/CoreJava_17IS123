@@ -1,4 +1,4 @@
-package algorithm.math;
+package week13b.math;
 
 import java.util.Arrays;
 

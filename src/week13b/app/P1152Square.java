@@ -1,4 +1,4 @@
-package app;
+package week13b.app;
 
 public class P1152Square {
 
